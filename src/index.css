@@ -51,5 +51,30 @@
     @apply px-8 py-2 bg-red-600 text-white hover:bg-red-700 transition-colors duration-300 text-xl font-bold;
   }
 
+  /* Hero Content */
+  .hero__content {
+    @apply flex flex-col items-start justify-center gap-4 w-1/2 h-full;
+  }
+
+  .hero__title {
+    @apply flex flex-col text-6xl font-bold;
+  }
+
+  .hero__title-desc {
+    @apply text-8xl font-bold drop-shadow-2xl;
+  }
+
+  .hero__subtitle-desc {
+    @apply text-8xl font-bold drop-shadow-2xl text-red-600;
+  }
+
+  .hero__description {
+    @apply text-2xl font-medium;
+  }
+
+  .hero__button {
+    @apply px-8 py-2 bg-red-600 text-white hover:bg-red-700 transition-colors duration-300 text-xl font-bold;
+  }
+
   /* ================================================= */
 }
