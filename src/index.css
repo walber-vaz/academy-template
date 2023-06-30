@@ -1,3 +1,55 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-white;
+  }
+}
+
+@layer components {
+  /* =========== Hero ================================*/
+  .hero {
+    @apply w-screen h-screen flex flex-col;
+  }
+
+  /* Menu  */
+  .menu {
+    @apply flex items-center justify-center w-full h-16 bg-black/40 border-b border-gray-300 font-headline;
+  }
+
+  .menu__container {
+    @apply flex items-center justify-between w-full;
+  }
+
+  .menu__title {
+    @apply text-5xl font-bold;
+  }
+
+  .menu__logo--highlight {
+    @apply text-red-600;
+  }
+
+  .navbar {
+    @apply flex items-center;
+  }
+
+  .navbar-brand {
+    @apply flex items-center;
+  }
+
+  .navbar-menu {
+    @apply flex items-center gap-4 text-3xl;
+  }
+
+  .navbar-link {
+    @apply text-gray-300 hover:text-red-600 transition-colors duration-300;
+  }
+
+  .btn-price {
+    @apply px-8 py-2 bg-red-600 text-white hover:bg-red-700 transition-colors duration-300 text-xl font-bold;
+  }
+
+  /* ================================================= */
+}

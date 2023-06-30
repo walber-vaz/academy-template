@@ -49,6 +49,7 @@
       {
         "code": 80
       }
-    ]
+    ],
+    "tailwindcss/no-custom-classname": "off"
   }
 }
