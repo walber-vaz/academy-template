@@ -12,6 +12,7 @@ export default function Hero(): JSX.Element {
         backgroundPosition: 'center'
       }}
     >
+      <div className='hero__overlay'></div>
       <Menu />
       <Container>
         <div className='hero__content'>
